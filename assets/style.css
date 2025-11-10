@@ -148,7 +148,7 @@ section.visible, .card.visible {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 4, 40, 0.9);
+    background: #313b8d
     backdrop-filter: blur(8px);
     display: flex;
     align-items: center;
