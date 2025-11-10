@@ -1,0 +1,128 @@
+/* ------------------------------
+   Estilos gerais
+--------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #f0f4f8 0%, #d9e4ec 100%);
+    color: #222;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: #fff;
+    animation: fadeIn 2s ease-in;
+}
+
+.titulo-exposicao {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo-exposicao {
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+
+/* Seções principais */
+section {
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Layout de introdução */
+.introducao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.texto-intro {
+    flex: 1 1 400px;
+}
+
+.imagem-intro img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagem-intro img:hover {
+    transform: scale(1.05);
+}
+
+/* Cards de problemas */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+/* Seção de soluções */
+.solucoes {
+    background: #eaf3fa;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.conteudo-solucoes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.conteudo-solucoes img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    padding: 2rem;
+    background: #000428;
+    color: white;
+    margin-top: 3rem;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .introducao, .conteudo-solucoes {
+        flex-direction: column;
+    }
+}
