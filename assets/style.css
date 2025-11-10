@@ -12,8 +12,8 @@ body {
 /* Cabeçalho */
 .header {
     text-align: center;
-    padding: 4rem 1rem;
-    background: linear-gradient(135deg, #004e92, #000428);
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #96aec4, #313b8d);
     color: #fff;
     animation: fadeIn 2s ease-in;
 }
@@ -109,9 +109,10 @@ section {
 .rodape {
     text-align: center;
     padding: 2rem;
-    background: #000428;
-    color: white;
     margin-top: 3rem;
+    background: linear-gradient(135deg, #96aec4, #313b8d);
+    color: #fff;
+    animation: fadeIn 2s ease-in;
 }
 
 /* Animações */
