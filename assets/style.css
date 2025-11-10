@@ -100,8 +100,8 @@ section {
 }
 
 .conteudo-solucoes img {
-    width: 100%;
-    max-width: 400px;
+    width: 50%;
+    max-width: 100px;
     border-radius: 1rem;
 }
 
