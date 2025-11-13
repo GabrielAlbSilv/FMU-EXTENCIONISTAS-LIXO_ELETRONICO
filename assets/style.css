@@ -13,7 +13,7 @@ body {
 .header {
     text-align: center;
     padding: 3rem 1rem;
-    background: linear-gradient(135deg, #96aec4, #313b8d);
+    background: linear-gradient(135deg, #96aec4, #b3b7d4);
     color: #fff;
     animation: fadeIn 2s ease-in;
 }
@@ -37,6 +37,8 @@ section {
 
 /* Layout de introdução */
 .introducao {
+    margin-top: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -44,7 +46,7 @@ section {
 }
 
 .texto-intro {
-    flex: 1 1 400px;
+    flex: 1 400px;
 }
 
 .imagem-intro img {
@@ -67,12 +69,23 @@ section {
 }
 
 .card {
+    margin-bottom: 1rem;
     background: #fff;
     border-radius: 1rem;
     padding: 1.5rem;
     width: 300px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-solucoes {
+    background: #ffffff;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 .card:hover {
@@ -87,9 +100,13 @@ section {
 
 /* Seção de soluções */
 .solucoes {
-    background: #eaf3fa;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #0091ff;
     border-radius: 1rem;
-    margin-top: 3rem;
+
 }
 
 .conteudo-solucoes {
